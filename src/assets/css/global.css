@@ -1,0 +1,16 @@
+@import "_fonts.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    direction: rtl;
+    font-family: Vazir, sans-serif;
+    scroll-behavior: smooth;
+}
